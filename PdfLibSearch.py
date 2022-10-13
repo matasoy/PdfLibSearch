@@ -202,12 +202,15 @@ def pdf_to_text():
     #            subprocess.call(args)
     #            i+=1
 def f_ayar_kaydet():    
+    global directory
     print("kaydedildi "+notpad_txt.get()+" "+pdfklasor_txt.get())
     yeniayar = "{\"ayar\":[{\"notepad\": \""+repr(notpad_txt.get())[1:-1]+"\", \"pdfklasor\": \""+repr(pdfklasor_txt.get())[1:-1]+"\"}]}"
     with open("ayar.json", 'w') as file:
         file.write(yeniayar)
         #json.dump(yeniayar, file)
-
+    directory=pdfklasor_txt.get()
+    gizle(frame1,1)
+    gizle(frame2,0)
 
 def yardim():
     global yardim_acikmi
