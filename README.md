@@ -1,6 +1,8 @@
 # PdfLibSearch
 PDF Ultimate Searcher for Researchers, binlerce pdf dosyasında aynı anda hızlı ve verimli arama aracı
 
+<img src="https://github.com/matasoy/PdfLibSearch/blob/main/pdflibsearch.gif"/>
+
 Bir veya birden çok klasör içinde bulunan pdf dokümanlarında detaylı arama yapmanıza yarıyacak bu aracın derlenmiş hali de dosyaların arasındadır. İsterseniz py dosyasını da kullanabilirsiniz. <br>
 
 Uygulama klaösrdeki ve onların içlerindeki tüm pdf dosyalarını tarayarak txt klasörüne taşımaktadır. Arama yapılarak bulunan anahtar kelimeler renklendirilmekte ve kelimenin içind ebulunduğu paragraf ile birlikte gösterilmektedir.<br>
